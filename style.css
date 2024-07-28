@@ -291,10 +291,6 @@ a {
   border-radius: 4px;
 }
 
-.col.left-algined {
-  text-align: left;
-}
-
 img.border {
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
@@ -482,12 +478,8 @@ footer {
     flex: 100%;
   }
 
-  .col.left-algined {
-    text-align: center;
-  }
-
   .section {
-    margin: 1em 0.8em;
+    margin: 1em 0.3em;
   }
 
   .button-group {
@@ -507,8 +499,11 @@ footer {
     display: block;
   }
 
-  .hero h1 {
+  .hero .headline {
     font-size: 1.6rem;
+  }
+    .hero .subheading {
+    font-size: 1.4rem;
   }
 
   .section h2 {
@@ -525,8 +520,12 @@ footer {
     flex: 1 0 48%;
   }
 
-  .hero h1 {
+  .hero .headline {
     font-size: 2.3rem;
+  }
+
+  .hero .subheading {
+    font-size: 2rem;
   }
 
   .section h2 {
