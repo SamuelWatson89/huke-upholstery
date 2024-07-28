@@ -311,7 +311,7 @@ img.rounded {
   text-align: left;
   padding: 1rem;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
-  background-image: url('/images/hero-image-1.png');
+  background-image: url('/images/hero-image-1.jpg');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
