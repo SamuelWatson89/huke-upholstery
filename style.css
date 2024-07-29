@@ -300,6 +300,10 @@ img.rounded {
   border-radius: 5%;
 }
 
+.no-wrap {
+  white-space: nowrap;
+}
+
 .hero {
   background-size: cover;
   background-position: center;
@@ -502,7 +506,8 @@ footer {
   .hero .headline {
     font-size: 1.6rem;
   }
-    .hero .subheading {
+
+  .hero .subheading {
     font-size: 1.4rem;
   }
 
