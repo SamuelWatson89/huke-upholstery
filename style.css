@@ -321,6 +321,10 @@ img.rounded {
   background-repeat: no-repeat;
 }
 
+.hero.mini {
+  min-height: 30vh;
+}
+
 .hero .headline {
   margin: 0 0 2rem 0;
   font-size: 3rem;
